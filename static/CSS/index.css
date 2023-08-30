@@ -64,7 +64,7 @@
   
   .user-message{
     font-family: "Nunito", sans-serif;
-    background-color: rgba(216, 46, 12, 0.542);
+    background-color: rgba(36, 12, 216, 0.542);
     /* light color */
     text-align: left;
     /* changed text align to left */
@@ -73,18 +73,18 @@
     color: white;
     width: fit-content;
     float: right;
+    font-size: 22px;
     margin-top: 2%;
     margin-bottom: 2%;
     margin-right: 5%;
     align-items: center;
-    font-style: italic;
     border-radius: 20px 15px 0px 20px;
     word-wrap: break-word; /* Add word-wrap property to wrap long messages */
   }
   
   .bot-message {
     font-family: "Nunito", sans-serif;
-    background-color: rgba(224, 142, 126, 0.647);
+    background-color: rgba(34, 14, 116, 0.347);
     /* light color */
     text-align: left;
     /* changed text align to left */
@@ -92,13 +92,13 @@
     /* added padding */
     color: white;
     float:left;
+    font-size:22px;
     width: fit-content;
     margin-left: 5%;
     margin-top: 5%;
     margin-right: 5%;
     margin-bottom: 2%;
     align-items: center;
-    font-style: italic;
     border-radius: 20px 15px 0px 20px;
     word-wrap: break-word; /* Add word-wrap property to wrap long messages */
   }
