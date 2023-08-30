@@ -1,0 +1,4 @@
+flask
+openai
+jinja2
+python-dotenv
