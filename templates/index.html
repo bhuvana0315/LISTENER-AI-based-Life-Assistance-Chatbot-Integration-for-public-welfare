@@ -14,7 +14,7 @@
 </head>
 <body>
     <section id="nav-bar">
-        <nav class="navbar navbar-expand-lg navbar-light ">
+        <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
             <!-- <img src="" alt="logo"
                 style="height:50px;width:80px">&nbsp;<h1 style="color:white;">-->
@@ -42,11 +42,18 @@
               <br><br>
               <div class="main-title">Welcome to Listener</div>
               <div id="chat-container"></div>
-              <input type="text" id="user-message" placeholder="Place your order here..." autofocus />
-              <button id="send-button" type="submit"><i class="fa fa-paper-plane fa-lg"></i></button>
-              <button type="submit" id="startButton"><i class="fa fa-microphone fa-lg"></i></button>
-              <button type="submit" id="stopButton"><i class="fa fa-microphone-slash fa-lg" style="--fa-primary-color: #ffffff; --fa-secondary-color: #ffffff;"></i></button>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <input type="text" id="user-message" placeholder="Place your order here..." autofocus />
+                    <button id="send-button" type="submit"><i class="fa fa-paper-plane fa-lg"></i></button>
+                    <button id="startButton" type="submit"><i class="fa fa-microphone fa-lg"></i></button>
+                    <button id="stopButton" type="submit"><i class="fa fa-microphone-slash fa-lg" style="--fa-primary-color: #ffffff; --fa-secondary-color: #ffffff;"></i></button>
+                  </div>
+                </div>
+              </div>
             </div>
+            
 
             <div class="col" style="margin-top:5%;">
             <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
@@ -129,9 +136,32 @@
                   </button>
                 </div>
                 </div>
-           </div>
-        </div>
+              </div>
+            </div>
+        
     <br><br>
+    </section>
+    <section style="background-color: powderblue;padding:20px;">
+    <div class="row" style="margin:3%;">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Emergency Call</h5>
+            <p class="card-text">Talk with the rescue team by one click.The rescue team will be available for your assistance 24/7.By clicking the icon,your call will be directed to the rescue team.</p>
+            <a href="tel:+91-8522067148" class="btn btn-primary"><i class="fa fa-phone" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Emergency chat</h5>
+            <p class="card-text">Using this you can chat with the rescue team.Since it can be made through whatsapp,you can share your live location and even able to make video call.</p>
+            <a href="https://api.whatsapp.com/send?phone=8522067148" class="btn btn-primary"><i class="fa fa-whatsapp fa-2xl"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
     </section>
     <br>
     <br><br>
